@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #222222;
+    margin: 0 auto;
+	background: dimgray;
+}
+
+.clearfix:after {
+    content:'';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {    
+    box-sizing: border-box;
+}
+
+.message {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  bottom: 55px;
+  right: 350px;
+  box-sizing: border-box;
+  line-height: 20px;
+  vertical-align: middle;
+  background: silver;
+  z-index: 2;
+  padding: 5px;
+  padding-right: 15px;
+}
+
+.sms {
+	z-index: 1;
+}
+
+#user {
+	width: 300px;
+}
+
+.list {
+  position: absolute;
+  top: 15px;
+  left: 1030px;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px;
+  background: pink;
+}
+
+.sendpanel {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 350px;
+  height: 35px;
+  padding: 5px;
+  background: yellow;
+}
